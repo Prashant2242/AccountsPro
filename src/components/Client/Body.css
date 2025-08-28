@@ -1,0 +1,956 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* navbar css */
+
+.header-link{
+  font-size: 15px;
+  font-weight: 500 !important;
+  font-family: 'Inter', sans-serif;
+  line-height: 22px;
+  color: #434343 !important;
+}
+.logo-img {
+  height: 22px !important;
+  width: auto;
+}
+
+
+/* home css */
+
+
+
+.banner-section2{
+  background: linear-gradient(to bottom, #FAF9FB, #CECBFB);
+  min-height: 660px;
+  padding-top: 80px;
+  position: relative;
+  border-radius:15px;
+}
+.banner-heading{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #333333;
+}
+.accounts-heading{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 100%;
+}
+.banner-para{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333333C9;
+}
+
+.accounted-btn{
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: 'Inter', sans-serif;
+  background-color: #7487E6 !important;
+  color: white !important;
+
+}
+
+.learn-more-link {
+  margin-left:3px ;
+  padding: 9px 18px;
+  border: 2px solid #7487E6; /* Match the bluish border */
+  border-radius: 999px; /* Fully rounded pill */
+  text-decoration: none;
+  color: #7487E6;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: rgba(123, 141, 249, 0.05); /* Light purple background */
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.learn-more-link:hover {
+  background-color:#7487E6;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+ 
+.learn:hover {
+  background-color: #7487E6 !important;
+  color: white !important;
+  border-color: #7487E6;
+}
+
+.carousel-img{
+height: 505px !important;
+object-fit: cover;
+border-radius: 22px !important;
+}
+.accounts-bg-img{
+  padding-top:30px;
+  position: relative;
+
+  background-color: #1C2842;
+}
+.banner-padding{
+  padding-top: 80px;
+}
+.feature-heading{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins' sans-serif;
+  line-height: 100%;
+}
+
+.join-accounts{
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins" sans-serif;
+  border-radius: 50px 10px 50px 10px;
+}
+.step-card{
+  width:285px !important;
+  height: 342px !important;
+  border-radius: 32px !important;
+}
+.step-para{
+  font-size: 13px;
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+}
+.faq-heading{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter' sans-serif;
+}
+
+
+/* footer */
+.social_logo {
+  width: 20px;
+  height: 20.5px;
+}
+.footer_color {
+  color: #28004b;
+}
+.footer_para{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #7487E6;
+}
+.footer-link {
+  color: #28004B;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #7487E6; /* Bootstrap blue */
+}
+.footer-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #28004B;
+}
+.contact-link{
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #28004B;
+}
+.contact-link:hover{
+  color: #7487E6;
+}
+
+
+
+/* contact */
+.contact-form {
+  background-color: #F0E8FF70;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact_paragraph {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Poppins" sans-serif;
+  line-height: 20px;
+}
+
+.contact-info {
+  background-color: #1c2842;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.one_blue_div{
+  width:34px; 
+  height:34px;
+  background-color:#7487e6 ;
+  top:0px;
+  left:0px;
+  transform:translate(-16px,-10px);
+}
+.outer_main_div_navy_color{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  transform: translate(-146px ,125px);
+} 
+
+.liner_backgorund {
+  background-image: url("../../assets/background4.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web-sider2{
+    margin-top: -349px;
+    margin-bottom: -140px;
+  position: relative,
+}
+
+
+.custom-image-wrapper {
+  z-index: 1;
+}
+.faq-badge {
+  background-color: #788ff9;
+  color: white;
+  font-weight: 450;
+  padding: 4px 12px;
+  display: inline-block;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  font-size: 14px;
+}
+
+.feature-circle {
+  width: 45px;
+  height: 45px;
+  min-width: 45px;
+  min-height: 45px;
+  background-color: white;
+  color: #4f46e5; 
+  font-weight: 600;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Section key features*/
+.zigzag {
+  background-image: url('../../assets/zigzag.png'); 
+  background-repeat: no-repeat;
+  background-position: center;   
+  background-size: contain; 
+  width: 100% !important;  
+  min-width: auto;
+  min-height: 452px;
+}
+.zigzag2 {
+  background-image: url('../../assets/zigzag2.png'); 
+  background-repeat: no-repeat;
+  background-position: center;   
+  background-size: contain; 
+  width: 100% !important; 
+  height: 400px !important; 
+}
+.feature-para {
+  font-weight: 400;
+  font-size: 13px; 
+}
+.girl-heading{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Poppins' sans-serif;
+  line-height: 100%;
+}
+
+
+
+/* media quary */
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .sec1{
+    margin-top: -2px !important;
+  }
+  .accounted-btn{
+    width: auto;
+    height: 34px;
+    font-size: 9px !important;
+  }
+
+  .learn-more-link {
+    margin-left:-7px ;
+    padding: 9px 14px;
+    border: 2px solid #7487E6; /* Match the bluish border */
+    border-radius: 999px; /* Fully rounded pill */
+    text-decoration: none;
+    color: #7487E6;
+    font-weight: 600;
+    font-size: 9px;
+    background-color: rgba(123, 141, 249, 0.05); /* Light purple background */
+    transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .icon-img{
+    width: 48px;
+    height: 48px;
+  }
+
+  .banner-section2{
+    min-height: 585px;
+    padding-top: 5px;
+    position: relative;
+    border-radius:15px;
+  }
+  .accounts-bg-img{
+    padding-top:20%;
+    padding-bottom: 5%;
+    position: relative;
+
+    background-color: #1C2842;
+  }
+  .logo-img {
+    width: 90px;
+    height: 16px !important;
+  }
+  .navbar-toggler-icon{
+    width: 24px!important;
+  }
+
+  .section3{
+    margin-top: 65px !important;
+    padding-bottom: 200px !important;
+  }
+
+ 
+ 
+ .sg{
+   padding-top: 2px;
+ }
+
+  .feature-heading{
+    font-size: 14px ;
+  }
+  .accounts-heading{
+    font-size: 18px;
+  }
+  .join-accounts{
+    font-size: 10px;
+  }
+  .banner-para{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .feature-para{
+    font-size: 11px ;
+    font-weight: 300 !important;
+  }
+ 
+  .faq-heading{
+    font-size: 11px !important;
+  }
+ 
+  .banner-heading{
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .banner-padding{
+    padding-top: 10px;
+  }
+  .carousel-img{
+    height: 160px !important;
+  }
+  .web-sider{
+    position: relative;
+    margin-top: -26%;    
+  }
+  .feature-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+
+  }
+    
+.founder-img {
+  width: 85% !important;   
+  height: 100%!important;
+  margin-top: -16px !important;
+  margin-bottom: 15px !important;
+}
+
+.laptop-img {
+ width: 90% !important;
+ height: 211px !important;
+margin-top: -7px !important;
+}
+
+.founder-section h3 {
+ font-size: 16px !important;
+}
+
+.founder-section h5 {
+ font-size: 14px !important;
+}
+
+
+.founder-section p {
+ line-height: 21px !important;
+ font-size: 12px !important;
+}
+
+.founder-section span {
+ font-size: 10px !important;
+ line-height: 24px !important;
+ font-weight: 500 !important;
+}
+
+   .circle{
+     width: 12px !important;;
+     height: 17px !important;
+   }
+
+.technology_image {
+  margin-top: 13px!important;
+
+}
+
+/*how accounts pro platform works*/
+
+.account_table {   
+  width: 335px !important;
+  height: 191px !important;
+}
+
+
+.data_table_image {
+  width: 346px !important;
+  height: 185px !important;
+}
+
+.login_image {
+  width: 346px !important;
+  height: 185px !important;
+}
+
+.calendar_image {
+width: 260px !important;
+height: 243px !important;
+margin-left: 36px;
+}
+
+.how h3{
+  font-size: 17px !important;
+}
+
+.hparra{
+  font-size: 13px !important;
+}
+
+.para{
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-family: Poppins;
+  line-height: 100% !important;
+}
+.para1{
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-family: Poppins;
+  line-height: 100% !important;
+}
+
+.mar-gin{
+  margin-bottom: 33px !important;
+}
+
+.second-para{
+  font-family: Assistant !important;
+  font-weight: 600 !important;
+  font-style: semibold !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+ 
+}
+
+.main_button {
+  border-radius: 50px !important;
+  background-color: #7487e6 !important;
+  border: none;
+  font-size: 9px;
+   width: auto !important;
+   height: 32px !important;
+}
+
+.t-btn {
+  border-radius: 50px !important;
+  background-color: #7487e6 !important;
+  border: none;
+  font-size: 10px !important;
+   width: auto !important;
+   height: 35px !important;
+}
+
+.tech_heading{
+  font-size: 20px;
+}
+
+.third_background {
+  background-image: url("../../assets/backgorund3.png");
+  background-size: cover;
+  background-position: center;
+  height: 37rem !important;
+}
+
+.about-badge {
+  display: inline-block;
+  background-color: white; /* Use your specific color here */
+  color: black;
+  padding: 8px 20px;
+  font-size: 10px !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  font-weight: 400;
+  font-family: Poppins;
+
+}
+
+
+  .plan-card {
+    min-height: 400px;
+    width: 100%;
+    height: 100%;   /* 👈 important */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out !important;
+    cursor: pointer;
+    padding: 20px;  /* optional, so text isn’t touching edges */
+    border-radius: 12px; /* optional */
+  }
+  
+  .plan-card:hover {
+    background-color: #7687f2;
+    margin-top: -10px;
+    box-shadow: 0 10px 20px rgba(54, 71, 228, 0.5) !important;
+    color: white !important;
+  }
+  
+
+.plan-btn:hover{
+  background-color: #1C2842 !important;
+  color: white !important;
+}
+.plan-btn{
+  width: auto !important;
+  height: 37px !important;
+  padding-bottom: 8px !important;
+  font-size: 13px !important;
+  opacity: 70%;
+
+}
+
+/*pricing*/
+
+.price-heading{
+  font-size: 24px !important;
+}
+.price-span{
+  font-size: 13px !important;
+}
+.popular{
+  font-size: 10px !important;
+  margin-top: 5px !important;
+}
+
+.pricing-para{
+  font-size: 11px !important;
+}
+.list{
+  font-size: 13px;
+}
+
+
+/*footer*/
+.footer-link {
+  color: #28004B;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #7487E6; /* Bootstrap blue */
+}
+
+.how-img{
+  margin-top: 5px !important;
+}
+.how-bottom{
+  margin-bottom: 0px !important;
+}
+
+}
+
+
+
+
+
+
+/*client*/
+
+.how h3{
+ font-size: 30px;
+ font-weight: 500;
+}
+
+
+.hparra{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 19.06px ;
+  line-height: 100%;
+}
+
+.para{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins;
+  line-height: 100%;
+}
+
+
+.second-para{
+  font-family: Assistant;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.third_heading {
+  font-size: 24px;
+}
+
+.mar-gin{
+  margin-bottom: 63px;
+}
+
+.main_button {
+  border-radius: 50px;
+  background-color: #7487e6;
+  border: none;
+  
+}
+.account_table {
+  width: 412px ;
+  height: 334.25px ;
+}
+
+
+.tick_image {
+  width: 15px;
+  height: 20px;
+}
+.tick_image:hover {
+ background-color: transparent;
+}
+
+.data_table_image {
+  width: 408px ;
+  height: 313px ;
+}
+
+
+.vertical-line {
+  width: 2px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+.login_image {
+  width: 416px ;
+  height: 291px;
+}
+
+
+
+.calendar_image {
+  width: 338px ;
+  height: 380px;
+ 
+}
+
+
+.technology_image {
+  width: 538.29px;
+  height: 308.06px;
+  margin-top: 56px;
+
+}
+
+
+
+.plans_paragraph {
+  font-size: 15px;
+}
+
+
+.Dashboard {
+  width: 414px;
+  height: 270px;
+}
+
+.third_background {
+  background-image: url("../../assets/backgorund3.png");
+  background-size: cover;
+  background-position: center;
+  height: 31rem;
+}
+
+.t-btn {
+  border-radius: 50px ;
+  background-color: #7487e6 !important;
+  border: none;
+  font-size: 15px;
+   width: 154px ;
+   height: 40px ;
+}
+
+
+.tech_paragraph {
+  font-size: 40px;
+  line-height: 60px;
+}
+founder-section {
+  background-color: #f6f5ff;
+  padding-bottom: 6rem !important;
+}
+
+/*About us*/
+.founder-section {
+  background-color: #f6f5ff;
+  padding-bottom: 6rem !important;
+}
+
+.founder-img {
+ width: 100%;
+  max-width: 442px;
+  height: 455px;
+ 
+
+}
+.laptop-img {
+  width: 100%;
+  max-width: 520px;
+  height: 358px;
+ margin-top: 68px;
+}
+
+.founder-section h3 {
+  font-size: 1.75rem;
+}
+
+.founder-section p {
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.founder-section span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.curved-badge {
+  display: inline-block;
+  background-color: #7687f2; /* Use your specific color here */
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  font-weight: 400;
+}
+
+.price-heading{
+  font-size: 30px;
+}
+
+
+
+
+
+
+.about-badge {
+  display: inline-block;
+  background-color: white; /* Use your specific color here */
+  color: black;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  font-weight: 400;
+  font-family: Poppins;
+
+}
+
+
+
+
+/*Pricing section*/
+.plans-section {
+  background-color: #fff;
+}
+
+.plan-card:hover {
+  background-color: #7487e6 !important;   /* fallback color */
+  background-image: url("../../assets/background.svg");
+  background-size: 92px 450px;    /* set custom width (200px), height auto */
+  background-position: right bottom; /* place it in the bottom-right corner */
+  background-repeat: no-repeat;   /* no tiling */
+
+  margin-top: -10px;
+  box-shadow: 0 10px 20px rgba(54, 71, 228, 0.5);
+  border: none !important;
+  color: white !important;
+  transition: 0.6s ease-in-out;
+}
+
+
+
+/* Make all child text inside card white */
+.plan-card:hover p,
+.plan-card:hover span,
+.plan-card:hover li,
+.plan-card:hover .list,
+.plan-card:hover .pricing-para,
+.plan-card:hover .price-span {
+  color: white !important;
+}
+
+/* 🔹 Change button automatically when card is hovered */
+.plan-card:hover .plan-btn {
+  background-color: #1C2842 !important;  /* dark navy button */
+  color: white !important;
+  border: none !important;
+  transition: 0.4s ease-in-out;
+  opacity:1;
+}
+
+/* 🔹 Button’s own hover (different color) */
+.plan-btn:hover {
+  
+  color: #1C2842 !important;             /* dark text */
+  border: none !important;
+  
+}
+
+.plan-btn{
+  width: 213px;
+  height: 44px;
+  margin-left: 10px;
+  padding-bottom: 8px !important;
+  
+
+}
+
+
+.check-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #ecf0ff;
+  color: #7487e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.plan-card:hover .check-icon{
+  color: white;
+  background-color:#96a3e6 ;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.choose-btn {
+  background-color: rgba(255, 214, 235, 0.4) !important; /* Light pink with 65% opacity */
+  color: #7487e6 !important;  /* Solid text */
+  font-weight: 600 !important;
+}
+
+
+.pro-plan {
+  background-color: #7487e6;
+  position: relative;
+}
+
+.popular-badge {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Avenir;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  
+  padding: 20px 58px;
+  border-radius: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+.plans-section h2{
+  height: 55px;
+  font-family: inter;
+}
+.price-btn{
+  background-color: #F496D1;
+}
+.price-span{
+  font-size: 17px;
+}
+
+
+
+.popular{
+  font-size: 14px;
+}
+
+
+
+.how-img{
+  margin-top: 85px;
+}
+
+.how-bottom{
+  margin-bottom: 48px;
+}

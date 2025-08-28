@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar css */
+html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+
+.header-link{
+  font-size: 15px;
+  font-weight: 500 !important;
+  font-family: 'Inter', sans-serif;
+  line-height: 22px;
+  color: #434343 !important;
+}
+.logo-img {
+  height: 22px !important;
+  width: auto;
+}
+.accounted-btn:hover {
+  background-color: #5a6fd4 !important;
+  border-color: #5a6fd4 !important;
+}
+
+
+/* home css */
+
+.banner-section{
+  background: linear-gradient(to bottom, #FAF9FB, #CECBFB);
+  min-height: 713px;
+  padding-top: 80px;
+  position: relative;
+  border-radius:15px;
+}
+.banner-heading{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #333333;
+}
+.accounts-heading{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 100%;
+}
+.banner-para{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333C9;
+}
+
+.accounted-btn{
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: 'Inter', sans-serif;
+  background-color: #7487E6 !important;
+  color: white !important;
+
+}
+
+.learn-more-link {
+  margin-left:3px ;
+  padding: 9px 18px;
+  border: 2px solid #7487E6; /* Match the bluish border */
+  border-radius: 999px; /* Fully rounded pill */
+  text-decoration: none;
+  color: #7487E6;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: rgba(123, 141, 249, 0.05); /* Light purple background */
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.learn-more-link:hover {
+  background-color:#7487E6;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+ 
+.learn:hover {
+  background-color: #7487E6 !important;
+  color: white !important;
+  border-color: #7487E6;
+}
+
+.carousel-img{
+height: 505px !important;
+object-fit: cover;
+border-radius: 22px !important;
+}
+.accounts-bg-img{
+  padding-top:30px;
+  position: relative;
+
+  background-color: #1C2842;
+}
+.banner-padding{
+  padding-top: 80px;
+}
+.feature-heading{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins' sans-serif;
+  line-height: 100%;
+}
+
+.girl-heading{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Poppins' sans-serif;
+  line-height: 100%;
+}
+
+
+.join-accounts{
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins" sans-serif;
+  border-radius: 50px 10px 50px 10px;
+}
+.step-card{
+  width:285px !important;
+  height: 342px !important;
+  border-radius: 32px !important;
+}
+.step-para{
+  font-size: 13px;
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+}
+.faq-heading{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter' sans-serif;
+}
+
+
+/* footer */
+.social_logo {
+  width: 20px;
+  height: 20.5px;
+}
+.footer_color {
+  color: #28004b;
+}
+.footer_para{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #7487E6;
+}
+.footer-link {
+  color: #28004B;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #7487E6; /* Bootstrap blue */
+}
+.footer-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #28004B;
+}
+.contact-link{
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #28004B;
+}
+.contact-link:hover{
+  color: #7487E6;
+}
+
+
+
+/* contact */
+.contact-form {
+  background-color: #F0E8FF70;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact_paragraph {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Poppins" sans-serif;
+  line-height: 20px;
+}
+
+.contact-info {
+  background-color: #1c2842;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.one_blue_div{
+  width:34px; 
+  height:34px;
+  background-color:#7487e6 ;
+  top:0px;
+  left:0px;
+  transform:translate(-16px,-10px);
+}
+.outer_main_div_navy_color{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  transform: translate(-146px ,125px);
+} 
+
+.liner_backgorund {
+  background-image: url("../../assets/background4.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web-sider{
+  margin-top: -397px;
+  margin-bottom: -81px;
+  position: relative,
+}
+
+
+.custom-image-wrapper {
+  z-index: 1;
+}
+.faq-badge {
+  background-color: #788ff9;
+  color: white;
+  font-weight: 450;
+  padding: 4px 12px;
+  display: inline-block;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  font-size: 14px;
+}
+
+.feature-circle {
+  width: 45px;
+  height: 45px;
+  min-width: 45px;
+  min-height: 45px;
+  background-color: white;
+  color: #4f46e5; 
+  font-weight: 600;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Section key features*/
+.zigzag {
+  background-image: url('../../assets/zigzag.png'); 
+  background-repeat: no-repeat;
+  background-position: center;   
+  background-size: contain; 
+  width: 100% !important;  
+  min-width: auto;
+  min-height: 452px;
+}
+.zigzag2 {
+  background-image: url('../../assets/zigzag2.png'); 
+  background-repeat: no-repeat;
+  background-position: center;   
+  background-size: contain; 
+  width: 100% !important; 
+  height: 400px !important; 
+}
+.feature-para {
+  font-weight: 400;
+  font-size: 13px; 
+}
+
+/*About us*/
+.founder-section {
+  background-color: #f6f5ff;
+}
+
+.founder-img {
+ width: 100%;
+  max-width: 442px;
+  height: 488px;
+ 
+
+}
+.laptop-img {
+  width: 100%;
+  max-width: 423px;
+  height: 324px;
+ margin-top: 40px;
+}
+
+.founder-section h3 {
+  font-size: 1.75rem;
+}
+
+.founder-section p {
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.founder-section span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.curved-badge {
+  display: inline-block;
+  background-color: #7687f2; /* Use your specific color here */
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  font-weight: 400;
+}
+.custom-tick-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+
+
+
+/* media quary */
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .banner-section{
+    min-height: 400px !important;
+    padding-top: 27px;
+    position: relative;
+    border-radius:15px;
+  }
+
+
+  .sec1{
+    margin-top: -2px !important;
+  }
+  .accounted-btn{
+    width: auto;
+    height: 34px;
+    font-size: 9px !important;
+  }
+
+  .learn-more-link {
+    margin-left:-7px ;
+    padding: 9px 14px;
+    border: 2px solid #7487E6; /* Match the bluish border */
+    border-radius: 999px; /* Fully rounded pill */
+    text-decoration: none;
+    color: #7487E6;
+    font-weight: 600;
+    font-size: 9px;
+    background-color: rgba(123, 141, 249, 0.05); /* Light purple background */
+    transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+
+  .accounts-bg-img{
+    padding-top:20%;
+    padding-bottom: 5%;
+    position: relative;
+
+    background-color: #1C2842;
+  }
+  .logo-img {
+    width: 90px;
+    height: 16px !important;
+  }
+  .navbar-toggler-icon{
+    width: 24px!important;
+  }
+ 
+ .sg{
+   padding-top: 2px;
+ }
+
+  .feature-heading{
+    font-size: 14px ;
+  }
+  .accounts-heading{
+    font-size: 19px;
+  }
+  .join-accounts{
+    font-size: 10px;
+  }
+  .banner-para{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .feature-para{
+    font-size: 11px ;
+    font-weight: 300 !important;
+  }
+
+  .faq-heading{
+    font-size: 11px !important;
+  }
+  .learn{
+    font-size: 12px !important;
+  }
+  .banner-heading{
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .banner-padding{
+    padding-top: 10px;
+  }
+  .carousel-img{
+    height: 160px !important;
+  }
+  .web-sider{
+    position: relative;
+    margin-top: -26%;    
+  }
+  .feature-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .founder-img {
+     width: 85%;   
+     height: 251px;
+     margin-top: -16px;
+     margin-bottom: 15px;
+   }
+
+   .laptop-img {
+    width: 90%;
+    height: 211px;
+   margin-top: -7px;
+  }
+
+   .founder-section h3 {
+    font-size: 16px;
+  }
+
+  .founder-section h5 {
+    font-size: 14px;
+  }
+  
+  
+  .founder-section p {
+    line-height: 21px;
+    font-size: 12px;
+  }
+  
+  .founder-section span {
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .circle{
+    width: 12px !important;;
+    height: 17px !important;
+  }
+
+  .custom-tick-icon {
+    width: 13px;
+    height: 18px;
+    object-fit: contain;
+  }
+ 
+  
+}
